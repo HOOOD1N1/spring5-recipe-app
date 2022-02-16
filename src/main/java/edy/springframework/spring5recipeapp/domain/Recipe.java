@@ -1,13 +1,17 @@
 package edy.springframework.spring5recipeapp.domain;
 
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-@Data
+@Slf4j
+@Getter
+@Setter
 @Entity
 public class Recipe {
 
