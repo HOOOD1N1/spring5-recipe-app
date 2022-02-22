@@ -13,7 +13,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-public class Recipe {
+public class  Recipe {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
